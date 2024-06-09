@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(12, 11, 11);
+    width: 100%;
+    
+}
+
+.logo img {
+   padding: 10px 0px 10px 48px;
+    width: 150px;
+}
+
+.xx {
+display: flex;
+justify-content: center;
+padding-right: 12%;
+}
+
+.tex1 {
+    color: rgb(255, 255, 255);
+    margin-right: 170px;
+    cursor: pointer;
+
+}
+
+a:hover {
+    color: red;
+    font-size: 18px;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.box1 {
+    display: flex;
+    background-color: brown;
+    width: 50vw;
+    align-items: center;
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+    width: 50vw;
+    height: 90VH;
+
+    > img {
+        
+        padding-top: 5em;
+        width: 80%;
+        height: 70%;
+    }
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 60px;
+}
+
+h1 {
+    font-family: 'Jacques Francois Shadow';
+}
+h1, h2 {
+    text-align: center;
+    text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+.box-form {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    opacity: 70%;
+    width: 100%;
+    height: 60%;
+    margin: 0px 75px;
+
+}
+
+#email, #senha {
+    width: 100%;
+    height: 25px;
+    padding: 2.5px;
+    border: solid 2px;
+    border-radius: 7px;
+}
+input {
+    padding: 10px;
+    text-align: center;
+}
+#acessar {
+    margin-left: 200px;
+    width: 40%;
+    padding: 10px 40px;
+    border-radius: 7px;
+    font-size: 18px;
+    border: none;
+    background-color: red;
+    color: whitesmoke;
+}
+
+#acessar:hover {
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+
+
+#slider > div{
+    transition: opacity 800ms;
+    display: none;
+}
+
+#slider div.selected {
+    margin-top: 40px;    
+    position: relative;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+}

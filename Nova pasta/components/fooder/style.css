@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 45px;
+
+    font-size: 20px;
+}
+
+.log-footer img {
+    width: 270px;
+    padding: 10px 10px;
+}
+
+.box-footer button {
+    background-color: transparent;
+    color: #e6e4e4;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 24px;
+    padding: 10px 100px;
+}
+.sociais {
+    align-items: center;
+    text-align: center;
+}
+.sociais > div {
+    margin-bottom: 10px;
+}
+.log-soc img {
+    width: 35px;
+    margin-right: 15px;
+}

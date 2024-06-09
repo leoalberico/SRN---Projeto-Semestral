@@ -1,0 +1,127 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0px;
+        display: flexbox;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            width: 100%;
+            
+        }
+        
+        .logo img {
+           padding: 10px 0px 10px 48px;
+            width: 150px;
+        }
+        
+        .xx {
+        display: flex;
+        justify-content: center;
+        padding-right: 12%;
+        }
+        
+        .tex1 {
+            color: rgb(255, 255, 255);
+            margin-right: 170px;
+            cursor: pointer;
+        
+        }
+        
+        a:hover {
+            color: red;
+            font-size: 18px;
+        }
+
+        
+
+
+    h1 {
+        text-align: center;
+        font-size: 34px;
+    }
+    span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    button {
+        padding: 12px 40px;
+        width: 17em;
+        align-items: center;
+        margin: 25px 0px;
+
+        border: green;
+        border-radius: 20px;
+        background-color: green;
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: aliceblue;
+        background-color: rgb(23, 119, 23);
+
+    }
+    
+    .container-plans    {
+
+        background-image: url("../assets/red_wavy_halftone_background.jpg");
+        width: 100%;
+        height: 100vh;
+        margin: -0px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 0em 5em;
+    }
+
+    .boxs-plans2 {
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        color: black;
+        width: 31.2em;
+        padding: 0px 45px;
+        border-radius: 25px;
+    }
+
+    .boxs-plans2 button {
+        margin: 30px 0px  80px 0px !important;
+    }
+    
+    .boxs-plans {
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        color: black;
+        width: 32em;
+        padding: 0px 35px;
+        border-radius: 25px;
+
+    }
+    .minis-box {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .minis-box img {
+        width: 20px;
+        margin: 0px 10px 10px 0px;
+    }
+

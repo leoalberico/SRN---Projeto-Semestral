@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    display: flexbox;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    
+}
+
+.logo img {
+   padding: 10px 0px 10px 48px;
+    width: 120px;
+}
+
+.xx {
+display: flex;
+justify-content: center;
+padding-right: 12%;
+}
+
+.tex1 {
+    color: rgb(255, 255, 255);
+    margin-right: 170px;
+    cursor: pointer;
+
+}
+
+.tex1:hover {
+    color: red;
+    font-size: 18px;
+}
